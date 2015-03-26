@@ -1,10 +1,10 @@
 # requirejs-demo
-Requirejs demo code for beginner. Using jQuery, Backbone
+Requirejs demo code for beginner. Using jQuery, Backbone, underscore as front-end framework.
 
 ## run
-Click index.html
+You should deploy this project on static service, eg apache, nginx.
 
-## apache config
+### apache config
 ```
 <VirtualHost *:2000>
     DocumentRoot "/Users/liaowei/Documents/code/github/requirejs-demo"

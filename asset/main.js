@@ -1,5 +1,5 @@
 require.config({
-  baseUrl: 'asset',
+  baseUrl: '/asset',
   // Remember: only use shim config for non-AMD scripts
   shim: {
     // 新版本支持amd加载
@@ -24,7 +24,13 @@ require.config({
 
     // Team modules
     'app': 'js/app',
-    'hotTopic': 'js/view/hotTopic',
+    'config': 'js/config',
+
+    // collection
+    'TopicCollection': 'js/collection/topics',
+    
+    // model
+    'TopicModel': 'js/model/topic',
 
     // Template
     'indexHtml': 'template/index.html',

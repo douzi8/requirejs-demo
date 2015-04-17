@@ -1,4 +1,25 @@
-<div>
-  index content 
-</div>
-<a href="/list" class="js-link">goTo list</a>
+<h2>Topic list</h2>
+<ul>
+<% _.each(topics, function(item) { %>
+  <li data-id="<%= item.id %>" class="js-topic-detail"><%= item.id%>: <%= item.title %>
+<%}); %>
+</ul>
+<nav>
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#" class="js-page" data-page="1">1</a></li>
+    <li><a href="#" class="js-page" data-page="2">2</a></li>
+    <li><a href="#" class="js-page" data-page="3">3</a></li>
+    <li><a href="#" class="js-page" data-page="4">4</a></li>
+    <li><a href="#" class="js-page" data-page="5">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>

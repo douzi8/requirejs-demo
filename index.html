@@ -4,17 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/asset/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/asset/css/style.css">
     <title>Html5 template</title>
   </head>
   <body>
     <header>
-      header
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Requirejs demo</a>
+        </div>
+      </nav>
     </header>
     <div id="main"></div>
-    <footer>
-      footer
+    <footer class="footer">
+      <ul class="footer-links">
+        <li>
+          <a href="https://github.com/douzi8/requirejs-demo">GitHub</a>
+        <li>
+          ·
+        <li>
+          <a href="https://github.com/douzi8/requirejs-demo">demo</a>
+      </ul>
     </footer>
-    <script data-main="./asset/main.js" src="./asset/vendor/require.js"></script>
+    <script data-main="/asset/main.js" src="/asset/vendor/require.js"></script>
   </body>
 </html>

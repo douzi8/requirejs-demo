@@ -2,3 +2,18 @@ body {
   margin: 0;
   padding: 0;
 }
+#main {
+  min-height: 400px;
+}
+
+.footer {
+  padding-top: 20px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}

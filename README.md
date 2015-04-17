@@ -13,3 +13,8 @@ You should deploy this project on static service, eg apache, nginx.
     RewriteRule ^/(?!asset).* /Users/liaowei/Documents/code/github/requirejs-demo/index.html
 </VirtualHost>
 ```
+
+### start admin
+```
+grunt app
+```
